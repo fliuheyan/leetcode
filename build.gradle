@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+group 'com.cloud.leetcode'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    archivesBaseName = 'app'
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    implementation group: 'org.assertj', name: 'assertj-guava', version: '3.0.0'
+}
