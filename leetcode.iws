@@ -151,21 +151,6 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.zigzag.conversion.Solution" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.zigzag.conversion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.integer.to.roman.Solution" />
       <module name="leetcode" />
@@ -184,13 +169,7 @@
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cloud.algorithm.two.sum.Solution" />
       <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cloud.algorithm.two.sum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
@@ -226,14 +205,18 @@
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (2)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -262,6 +245,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
