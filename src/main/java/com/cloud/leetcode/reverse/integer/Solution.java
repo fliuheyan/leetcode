@@ -1,4 +1,6 @@
-package main.java.com.cloud.leetcode.reverse.integer;
+package com.cloud.leetcode.reverse.integer;
+
+import com.google.common.base.Preconditions;
 
 public class Solution {
     public int reverse(int x) {
@@ -9,11 +11,9 @@ public class Solution {
             resultChars[j] = '-';
             j++;
         }
-        boolean isHead = true;
         for (int index = chars.length - 1; index >= 0; index--) {
             if (chars[index] != '0') {
-                isHead = false;
-                if (!isHead && chars[index] != '-') {
+                if (chars[index] != '-') {
                     resultChars[j] = chars[index];
                     j++;
                 }
@@ -31,12 +31,12 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int reverse123 = solution.reverse(123);
-        System.out.println(reverse123);
+        Preconditions.checkArgument(reverse123 == 321);
 
         int reverseNegative = solution.reverse(-123);
-        System.out.println(reverseNegative);
+        Preconditions.checkArgument(reverseNegative == -321);
 
         int reverse120 = solution.reverse(120);
-        System.out.println(reverse120);
+        Preconditions.checkArgument(reverse120 == 21);
     }
 }

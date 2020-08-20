@@ -1,5 +1,7 @@
 package com.cloud.leetcode.twosum;
 
+import com.google.common.base.Preconditions;
+
 import java.util.Arrays;
 
 class Solution {
@@ -19,6 +21,7 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] ints = solution.twoSum(new int[]{2, 7, 11, 15}, 9);
-        System.out.println(Arrays.toString(ints));
+        Preconditions.checkArgument(ints[0] == 0);
+        Preconditions.checkArgument(ints[1] == 1);
     }
 };

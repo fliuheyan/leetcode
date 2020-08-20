@@ -1,7 +1,5 @@
 package com.cloud.leetcode.addtwo.numbers;
 
-import java.util.List;
-
 public class Solution {
 
     public class ListNode {
@@ -92,6 +90,5 @@ public class Solution {
             System.out.println(temp.val);
             temp = temp.next;
         }
-        System.out.println("###############");
     }
 }

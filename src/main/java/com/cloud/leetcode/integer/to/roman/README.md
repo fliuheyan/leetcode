@@ -28,7 +28,7 @@ There are six instances where subtraction is used:
 
 Example 1:
 ```
-Input: 3
+Input: 3
 Output: "III"
 ```
 Example 2:

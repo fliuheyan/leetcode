@@ -1,5 +1,7 @@
 package com.cloud.leetcode.container.with.most.water;
 
+import com.google.common.base.Preconditions;
+
 public class Solution {
     public int maxArea(int[] height) {
         int max = 0;
@@ -14,6 +16,6 @@ public class Solution {
         Solution solution = new Solution();
         int[] ints = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
         int result = solution.maxArea(ints);
-//        assertThat();
+        Preconditions.checkArgument(result == 49);
     }
 }

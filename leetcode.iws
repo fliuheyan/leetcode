@@ -20,13 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9674bb61-39b7-41ff-ac12-e54adfa4e532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/container/with/most/water/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/container/with/most/water/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/addtwo/numbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/addtwo/numbers/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/container/with/most/water/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/container/with/most/water/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/palindromic/substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/palindromic/substring/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/substring/without/repeating/characters/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/substring/without/repeating/characters/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/reverse/integer/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/reverse/integer/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/string/to/integer/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/string/to/integer/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/twosum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/twosum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/zigzag/conversion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/zigzag/conversion/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +137,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -151,13 +158,58 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.integer.to.roman.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.zigzag.conversion.Solution" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.integer.to.roman.*" />
+          <option name="PATTERN" value="com.cloud.leetcode.zigzag.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.longest.substring.without.repeating.characters.Solution" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.leetcode.longest.substring.without.repeating.characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.reverse.integer.Solution" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.leetcode.reverse.integer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.cloud.leetcode.string.to.integer.Solution" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.cloud.leetcode.string.to.integer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,9 +219,15 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.algorithm.two.sum.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.twosum.Solution" />
       <module name="leetcode" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.leetcode.twosum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
@@ -206,13 +264,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Solution (3)" />
+      <item itemvalue="Application.Solution (4)" />
+      <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Solution (5)" />
+        <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -256,30 +320,36 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="328" y="78" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1594630160575" />
-    <state width="1750" height="277" key="GridCell.Tab.0.bottom" timestamp="1597847013408">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom" timestamp="1597941155059">
+      <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1750" height="277" key="GridCell.Tab.0.center" timestamp="1597847013408">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155059" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center" timestamp="1597941155059">
+      <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1750" height="277" key="GridCell.Tab.0.left" timestamp="1597847013407">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155059" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left" timestamp="1597941155058">
+      <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013407" />
-    <state width="1750" height="277" key="GridCell.Tab.0.right" timestamp="1597847013408">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155058" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right" timestamp="1597941155059">
+      <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state x="384" y="113" key="SettingsEditor" timestamp="1597844930462">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155059" />
+    <state x="411" y="120" key="SettingsEditor" timestamp="1597939966610">
+      <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state x="384" y="113" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1597844930462" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1597848973866">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state x="411" y="120" key="SettingsEditor/0.23.1920.1097@0.23.1920.1097" timestamp="1597939966610" />
+    <state width="536" height="481" key="SwitcherDM" timestamp="1597941127415">
+      <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1597848973866" />
+    <state width="536" height="481" key="SwitcherDM/0.23.1920.1097@0.23.1920.1097" timestamp="1597941127415" />
     <state x="232" y="89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597845241620">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>

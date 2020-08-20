@@ -1,6 +1,7 @@
 package com.cloud.leetcode.zigzag.conversion;
 
-import java.util.Collections;
+import com.google.common.base.Preconditions;
+
 import java.util.Stack;
 
 public class Solution {
@@ -17,7 +18,6 @@ public class Solution {
         for (int columnIndex = 0; columnIndex < columns; columnIndex++) {
             for (int rowIndex = 0; rowIndex < numRows; rowIndex++) {
                 int mod1 = columnIndex % (numRows - 1);
-//                System.out.printf("column %s row %s mod %s\n", columnIndex, rowIndex, mod1);
                 if (mod1 == 0 && !stack.isEmpty()) {
                     table[columnIndex][rowIndex] = stack.pop();
                 } else if (rowIndex == (numRows - mod1 - 1) && !stack.isEmpty()) {
@@ -33,7 +33,6 @@ public class Solution {
         StringBuilder sb = new StringBuilder();
         for (int rowIndex = 0; rowIndex < table[0].length; rowIndex++) {
             for (int columnIndex = 0; columnIndex < table.length; columnIndex++) {
-//                System.out.printf("column %s row %s value %s \n", columnIndex, rowIndex, table[columnIndex][rowIndex]);
                 if (table[columnIndex][rowIndex] != null) {
                     sb.append(table[columnIndex][rowIndex]);
                 }
@@ -46,13 +45,9 @@ public class Solution {
         Solution solution = new Solution();
 
         String result = solution.convert("PAYPALISHIRING", 3);
-        System.out.println(result);
+        Preconditions.checkArgument(result.equals("PAHNAPLSIIGYIR"));
 
         String result2 = solution.convert("PAYPALISHIRING", 4);
-        System.out.println(result2);
-
-//        int[][] array = {{1, 2, 3, 4}, {5, 6, 7, 8}};
-//        System.out.println(array.length); //2
-//        System.out.println(array[0]);
+        Preconditions.checkArgument(result2.equals("PINALSIGYAHRPI"));
     }
 }

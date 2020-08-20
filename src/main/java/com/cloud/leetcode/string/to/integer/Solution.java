@@ -1,7 +1,8 @@
-package main.java.com.cloud.leetcode.string.to.integer;
+package com.cloud.leetcode.string.to.integer;
+
+import com.google.common.base.Preconditions;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 
 public class Solution {
     public int myAtoi(String str) {
@@ -52,19 +53,18 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int int42 = solution.myAtoi("42");
-        System.out.println(int42);
+        Preconditions.checkArgument(int42 == 42);
 
         int negative42 = solution.myAtoi("     -42");
-        System.out.println(negative42);
+        Preconditions.checkArgument(negative42 == -42);
 
         int numWithWords = solution.myAtoi("4193 with words");
-        System.out.println(numWithWords);
+        Preconditions.checkArgument(numWithWords == 4193);
 
         int wordsWithNum = solution.myAtoi("words and 987");
-        System.out.println(wordsWithNum);
+        Preconditions.checkArgument(wordsWithNum == 0);
 
         int bigint = solution.myAtoi("-91283472332");
-        System.out.println(bigint);
+        Preconditions.checkArgument(bigint == Integer.MIN_VALUE);
     }
-
 }

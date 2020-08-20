@@ -1,5 +1,7 @@
 package com.cloud.leetcode.longest.substring.without.repeating.characters;
 
+import com.google.common.base.Preconditions;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,10 +25,12 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int abcabcbb = solution.lengthOfLongestSubstring("abcabcbb");
+        Preconditions.checkArgument(abcabcbb == 3);
+
         int bbbbbb = solution.lengthOfLongestSubstring("bbbbbb");
+        Preconditions.checkArgument(bbbbbb == 1);
+
         int pwwkew = solution.lengthOfLongestSubstring("pwwkew");
-        System.out.println(abcabcbb);
-        System.out.println(bbbbbb);
-        System.out.println(pwwkew);
+        Preconditions.checkArgument(pwwkew == 3);
     }
 }

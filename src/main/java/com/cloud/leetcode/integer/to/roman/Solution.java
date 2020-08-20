@@ -1,5 +1,7 @@
 package com.cloud.leetcode.integer.to.roman;
 
+import com.google.common.base.Preconditions;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,6 +19,7 @@ public class Solution {
         map.put(1000, "M");
     }
 
+    //TODO
     public String intToRoman(int num) {
         int[] ints = splitByBite(num);
         for (int i = 0; i < ints.length; i++) {
@@ -94,8 +97,18 @@ public class Solution {
         Solution solution = new Solution();
         String roman1994 = solution.intToRoman(1994);
         System.out.println(roman1994);
-//
-//        String roman58 = solution.intToRoman(58);
-//        System.out.println(roman58);
+        Preconditions.checkArgument(roman1994.equals("MCMXCIV"));
+
+        String roman58 = solution.intToRoman(58);
+        Preconditions.checkArgument(roman58.equals("LVIII"));
+
+        String roman3 = solution.intToRoman(3);
+        Preconditions.checkArgument(roman3.equals("III"));
+
+        String roman4 = solution.intToRoman(4);
+        Preconditions.checkArgument(roman4.equals("IV"));
+
+        String roman9 = solution.intToRoman(9);
+        Preconditions.checkArgument(roman9.equals("IX"));
     }
 }
