@@ -19,12 +19,8 @@ public class Solution {
         map.put(1000, "M");
     }
 
-    //TODO
     public String intToRoman(int num) {
         int[] ints = splitByBite(num);
-        for (int i = 0; i < ints.length; i++) {
-            System.out.println(ints[i]);
-        }
 
         StringBuilder sb = new StringBuilder();
         for (int anInt : ints) {
@@ -38,17 +34,7 @@ public class Solution {
     }
 
     private int getBaseNum(int decimals) {
-        int basic = 0;
-        if (decimals == 0) {
-            basic = 1;
-        } else if (decimals == 1) {
-            basic = 10;
-        } else if (decimals == 2) {
-            basic = 100;
-        } else if (decimals == 3) {
-            basic = 1000;
-        }
-        return basic;
+        return (int) Math.pow(10, decimals);
     }
 
     private String convertToRoma(int num) {
@@ -62,7 +48,7 @@ public class Solution {
         } else {
             int decimals = getDecimals(num);
             int baseNum = getBaseNum(decimals);
-            int mod = num % baseNum;
+            int mod = num / baseNum;
             if (1 < mod && mod < 4) {
                 for (int i = 0; i < mod; i++) {
                     sb.append(map.get(baseNum));
@@ -71,8 +57,8 @@ public class Solution {
                 sb.append(map.get(baseNum));
                 sb.append(map.get(5 * baseNum));
             } else if (mod > 5 && mod < 9) {
-                sb.append(5 * baseNum);
-                for (int i = 0; i < mod; i++) {
+                sb.append(map.get(5 * baseNum));
+                for (int i = 0; i < (mod-5); i++) {
                     sb.append(map.get(baseNum));
                 }
             } else if (mod == 9) {
@@ -88,7 +74,7 @@ public class Solution {
         char[] chars = str.toCharArray();
         int[] result = new int[chars.length];
         for (int i = 0; i < chars.length; i++) {
-            result[i] = i * 10 ^ (chars.length - 1 - i);
+            result[i] = Character.getNumericValue(chars[i]) * ((int) Math.pow(10, chars.length - 1 - i));
         }
         return result;
     }
@@ -96,7 +82,6 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String roman1994 = solution.intToRoman(1994);
-        System.out.println(roman1994);
         Preconditions.checkArgument(roman1994.equals("MCMXCIV"));
 
         String roman58 = solution.intToRoman(58);

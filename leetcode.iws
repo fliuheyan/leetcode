@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,20 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9674bb61-39b7-41ff-ac12-e54adfa4e532" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/addtwo/numbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/addtwo/numbers/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/container/with/most/water/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/container/with/most/water/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/integer/to/roman/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/palindromic/substring/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/palindromic/substring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/substring/without/repeating/characters/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/substring/without/repeating/characters/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/reverse/integer/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/reverse/integer/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/string/to/integer/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/string/to/integer/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/twosum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/twosum/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/zigzag/conversion/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/zigzag/conversion/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +74,43 @@
     </breakpoint_any>
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="leetcode" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="leetcode" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="leetcode" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="leetcode" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -137,7 +166,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -173,13 +202,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.longest.substring.without.repeating.characters.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.container.with.most.water.Solution" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.longest.substring.without.repeating.characters.*" />
+          <option name="PATTERN" value="com.cloud.leetcode.container.with.most.water.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,13 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.reverse.integer.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.integer.to.roman.Solution" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.reverse.integer.*" />
+          <option name="PATTERN" value="com.cloud.leetcode.integer.to.roman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +293,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
-      <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -320,26 +349,26 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="328" y="78" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1594630160575" />
-    <state width="1878" height="374" key="GridCell.Tab.0.bottom" timestamp="1597941155059">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1597958706412">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155059" />
-    <state width="1878" height="374" key="GridCell.Tab.0.center" timestamp="1597941155059">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1597958706412" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1597958706411">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1878" height="374" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155059" />
-    <state width="1878" height="374" key="GridCell.Tab.0.left" timestamp="1597941155058">
+    <state width="1878" height="303" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1597958706411" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1597958706411">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013407" />
-    <state width="1878" height="374" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155058" />
-    <state width="1878" height="374" key="GridCell.Tab.0.right" timestamp="1597941155059">
+    <state width="1878" height="303" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1597958706411" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1597958706411">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1878" height="374" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1597941155059" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1597958706411" />
     <state x="411" y="120" key="SettingsEditor" timestamp="1597939966610">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
@@ -354,9 +383,17 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="232" y="89" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1597845241620" />
+    <state x="667" y="326" width="586" height="490" key="find.popup" timestamp="1597958007555">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="667" y="326" width="586" height="490" key="find.popup/0.23.1920.1097@0.23.1920.1097" timestamp="1597958007555" />
     <state x="505" y="228" key="run.anything.popup" timestamp="1594630903477">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="505" y="228" key="run.anything.popup/0.23.1680.947@0.23.1680.947" timestamp="1594630903477" />
+    <state x="625" y="268" key="search.everywhere.popup" timestamp="1597958729204">
+      <screen x="0" y="23" width="1920" height="1097" />
+    </state>
+    <state x="625" y="268" key="search.everywhere.popup/0.23.1920.1097@0.23.1920.1097" timestamp="1597958729204" />
   </component>
 </project>
