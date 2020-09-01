@@ -1,5 +1,7 @@
 package com.cloud.leetcode.three.sum;
 
+import org.assertj.core.util.Preconditions;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -112,7 +114,6 @@ public class Solution {
         for (String str : strList) {
             System.out.println(str);
         }
-
 //        BigDecimal add = bigDecimal1.add(bigDecimal2);
 //        System.out.println(bigDecimal1.divide(bigDecimal2, 4, RoundingMode.CEILING));
 //        System.out.println(add.toString());
