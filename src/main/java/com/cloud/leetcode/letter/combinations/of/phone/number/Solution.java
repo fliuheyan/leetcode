@@ -19,14 +19,14 @@ public class Solution {
             if (value == 9) {
                 temp.add(str.substring(24));
             } else {
-                temp.add(str.substring((value - 1) * 3, (value - 1) * 3 + 2));
+                temp.add(str.substring((value - 2) * 3, (value - 2) * 3 + 3));
             }
         }
         String first = temp.get(0);
         String second = temp.get(1);
-        for (int i = 0; i < first.length; i++) {
-            for (int j = 0; j < second.length; j++) {
-                result.add(String.valueOf(first.charAt(i) + second.charAt(j)));
+        for (int i = 0; i < first.length(); i++) {
+            for (int j = 0; j < second.length(); j++) {
+                result.add(String.valueOf(first.charAt(i)) + String.valueOf(second.charAt(j)));
             }
         }
         return result;
@@ -35,6 +35,9 @@ public class Solution {
     public static void main(String[] args) {
         String str = "23";
         Solution solution = new Solution();
-        solution.letterCombinations(str);
+        List<String> strings = solution.letterCombinations(str);
+        for (int i = 0; i < strings.size(); i++) {
+            System.out.println(strings.get(i));
+        }
     }
 }
