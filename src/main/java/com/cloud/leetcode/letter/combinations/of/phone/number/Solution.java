@@ -10,6 +10,7 @@ public class Solution {
     public List<String> letterCombinations(String digits) {
         String str = "abcdefghijklmnopqrstuvwxyz";
         List<String> temp = new ArrayList<>();
+        List<String> result = new ArrayList<>();
         for (int i = 0; i < digits.length(); i++) {
             int value = Character.getNumericValue(digits.charAt(i));
             if (value == 1) {
@@ -21,15 +22,19 @@ public class Solution {
                 temp.add(str.substring((value - 1) * 3, (value - 1) * 3 + 2));
             }
         }
-        for(int i=0;i<temp.size();i++) {
-            
+        String first = temp.get(0);
+        String second = temp.get(1);
+        for (int i = 0; i < first.length; i++) {
+            for (int j = 0; j < second.length; j++) {
+                result.add(String.valueOf(first.charAt(i) + second.charAt(j)));
+            }
         }
-        return list;
+        return result;
     }
 
     public static void main(String[] args) {
         String str = "23";
-
-        System.out.println(new BigDecimal("0.000").compareTo(BigDecimal.ZERO) == 0);
+        Solution solution = new Solution();
+        solution.letterCombinations(str);
     }
 }
