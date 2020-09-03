@@ -23,14 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9674bb61-39b7-41ff-ac12-e54adfa4e532" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/common/prefix/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/longest/common/prefix/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/palindrome/number/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/roma/to/integer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/roma/to/integer/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/three/sum/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/three/sum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/letter/combinations/of/phone/number/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/letter/combinations/of/phone/number/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +76,11 @@
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -88,29 +89,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="leetcode" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="leetcode" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="leetcode" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="leetcode" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -171,7 +150,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -192,13 +171,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.container.with.most.water.Solution" />
-      <module name="leetcode" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.letter.combinations.of.phone.number.Solution" />
+      <module name="leetcode.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.container.with.most.water.*" />
+          <option name="PATTERN" value="com.cloud.leetcode.letter.combinations.of.phone.number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +277,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (2)" />
       <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -354,36 +333,36 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="328" y="78" key="#Project_Structure/0.23.1680.947@0.23.1680.947" timestamp="1594630160575" />
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1597971421377">
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom" timestamp="1599080743824">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1597971421377" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1597971421377">
+    <state width="1878" height="306" key="GridCell.Tab.0.bottom/0.23.1920.1097@0.23.1920.1097" timestamp="1599080743824" />
+    <state width="1878" height="306" key="GridCell.Tab.0.center" timestamp="1599080743823">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1597971421377" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1597971421377">
+    <state width="1878" height="306" key="GridCell.Tab.0.center/0.23.1920.1097@0.23.1920.1097" timestamp="1599080743823" />
+    <state width="1878" height="306" key="GridCell.Tab.0.left" timestamp="1599080743823">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013407" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1597971421377" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1597971421377">
+    <state width="1878" height="306" key="GridCell.Tab.0.left/0.23.1920.1097@0.23.1920.1097" timestamp="1599080743823" />
+    <state width="1878" height="306" key="GridCell.Tab.0.right" timestamp="1599080743824">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1597847013408" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1597971421377" />
+    <state width="1878" height="306" key="GridCell.Tab.0.right/0.23.1920.1097@0.23.1920.1097" timestamp="1599080743824" />
     <state x="411" y="120" key="SettingsEditor" timestamp="1597939966610">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state x="384" y="113" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1597844930462" />
     <state x="411" y="120" key="SettingsEditor/0.23.1920.1097@0.23.1920.1097" timestamp="1597939966610" />
-    <state width="536" height="481" key="SwitcherDM" timestamp="1597970951662">
+    <state width="536" height="481" key="SwitcherDM" timestamp="1599077853981">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1597848973866" />
-    <state width="536" height="481" key="SwitcherDM/0.23.1920.1097@0.23.1920.1097" timestamp="1597970951662" />
+    <state width="536" height="481" key="SwitcherDM/0.23.1920.1097@0.23.1920.1097" timestamp="1599077853981" />
     <state x="249" y="94" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597970107715">
       <screen x="0" y="23" width="1920" height="1097" />
     </state>
