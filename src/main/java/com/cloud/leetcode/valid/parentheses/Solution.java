@@ -21,8 +21,8 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-//        System.out.println(solution.isValid("()"));
-//        System.out.println(solution.isValid("{[]}"));
+        System.out.println(solution.isValid("()"));
+        System.out.println(solution.isValid("{[]}"));
         System.out.println(solution.isValid("()[]{}"));
 //        Preconditions.checkArgument(solution.isValid("()"));
 //        Preconditions.checkArgument(solution.isValid("()[]{}"));

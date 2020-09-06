@@ -35,11 +35,11 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar:///Users/yisen.zhang/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.17.1/a0dbfb44443b97255b775602f15dfa1332ae8c57/assertj-core-3.17.1.jar!/"/>
+          <root url="jar:///Users/yisen.zhang/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.17.2/b13a7ea14b0e2f2f75ed64e2ce310e65a55694df/assertj-core-3.17.2.jar!/"/>
         </CLASSES>
         <JAVADOC/>
         <SOURCES>
-          <root url="jar:///Users/yisen.zhang/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.17.1/9c167418afa5cb295c788bc3f9877c591f1d2af9/assertj-core-3.17.1-sources.jar!/"/>
+          <root url="jar:///Users/yisen.zhang/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.17.2/f8b4694e0e099e8e9bac297143d3256a862efab5/assertj-core-3.17.2-sources.jar!/"/>
         </SOURCES>
       </library>
     </orderEntry>
