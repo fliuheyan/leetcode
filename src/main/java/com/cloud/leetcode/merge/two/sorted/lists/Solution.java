@@ -38,7 +38,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         ListNode listNode1 = new ListNode(1);
         ListNode listNode2 = new ListNode(2);
         ListNode listNode4 = new ListNode(4);
@@ -50,27 +49,6 @@ public class Solution {
         ListNode listNode44 = new ListNode(4);
         listNode11.next = listNode33;
         listNode33.next = listNode44;
-=======
-        Solution solution = new Solution();
-        ListNode listNode1 = solution.generateListNode(List.of(1, 2, 4));
-        ListNode listNode2 = solution.generateListNode(List.of(1, 3, 4));
-        ListNode curr;
-        while (listNode1.next != null || listNode2.next != null) {
-            if (listNode1.val < listNode2.val) {
-                curr = listNode1;
-                listNode1 = listNode1.next;
-            } else {
-                curr = listNode2;
-            }
-            while (listNode1.val < listNode2.val) {
-                curr.next = listNode1;
-                curr = listNode1;
-            }
-            if(listNode1 == null) {
-
-            }
-        }
->>>>>>> ff05fc4... commit
 
         Solution solution = new Solution();
         ListNode listNode = solution.mergeTwoLists(listNode1, listNode11);
