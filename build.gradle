@@ -17,4 +17,5 @@ jar {
 
 dependencies {
     implementation group: 'org.assertj', name: 'assertj-guava', version: '3.0.0'
+    implementation 'junit:junit:4.12'
 }
