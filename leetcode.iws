@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3477baa2-ea75-4333-8f9c-7911591123af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/contains/duplicate/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/contains/duplicate/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/single/number/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/single/number/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/rotate/array/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/rotate/array/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -140,6 +139,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cloud.leetcode.contains.duplicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.single.number.Solution" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.leetcode.single.number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
       </list>
@@ -220,25 +235,57 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="354" key="GridCell.Tab.0.bottom" timestamp="1600184278604">
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1600185535148">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="354" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600184278604" />
-    <state width="1750" height="354" key="GridCell.Tab.0.center" timestamp="1600184278603">
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535148" />
+    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1600185535147">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="354" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600184278603" />
-    <state width="1750" height="354" key="GridCell.Tab.0.left" timestamp="1600184278603">
+    <state width="1750" height="342" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535147" />
+    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1600185535147">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="354" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600184278603" />
-    <state width="1750" height="354" key="GridCell.Tab.0.right" timestamp="1600184278603">
+    <state width="1750" height="342" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535147" />
+    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1600185535147">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="354" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600184278603" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1600184237595">
+    <state width="1750" height="342" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535147" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1600185535148">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600184237595" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535148" />
+    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1600185535148">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535148" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1600185535148">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535148" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1600185535148">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600185535148" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600185175267">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600185175267" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cloud/leetcode/single/number/Solution.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cloud/leetcode/single/number/Solution.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
