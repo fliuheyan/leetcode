@@ -2,6 +2,11 @@
 
 3-5 solutions everyday. fighting~
 
+### TODO
+* array 
+1. Best Time to Buy and Sell Stock II
+2. Valid Sudoku
+
 ### 刷题顺序
 TOP100
 
