@@ -6,6 +6,7 @@ public class DisplayHelper {
             System.out.println(node.val);
             node = node.next;
         }
+        System.out.println("##############");
     }
 
     public static void displayIntArray(int[] array) {

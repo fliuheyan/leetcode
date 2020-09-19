@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3477baa2-ea75-4333-8f9c-7911591123af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/count/and/say/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/count/and/say/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/delete/a/node/in/a/linked/list/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/delete/a/node/in/a/linked/list/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/DisplayHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/DisplayHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +105,9 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -111,7 +116,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Solution (5)">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -131,21 +136,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.first.unique.character.in.a.string.Solution" />
-      <module name="leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.first.unique.character.in.a.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.valid.anagram.Solution" />
@@ -207,6 +197,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.delete.a.node.in.a.linked.list.Solution" />
+      <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.leetcode.delete.a.node.in.a.linked.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -239,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
         <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -276,45 +281,61 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1600506009655">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009655" />
+    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1600506009655">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1600503849440">
+    <state width="1750" height="342" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009655" />
+    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1600506009655">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849440" />
-    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009655" />
+    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1600506009655">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009655" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1600506009657">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009657" />
+    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1600506009656">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009656" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1600506009656">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1600503849441">
+    <state width="1750" height="342" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009656" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1600506009656">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600503849441" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1600504007066">
+    <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600506009656" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600505943278">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600504007066" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600505943278" />
     <state x="561" y="182" width="670" height="676" key="search.everywhere.popup" timestamp="1600270216423">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state x="561" y="182" width="670" height="676" key="search.everywhere.popup/0.23.1792.1017@0.23.1792.1017" timestamp="1600270216423" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cloud/leetcode/delete/a/node/in/a/linked/list/Solution.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cloud/leetcode/delete/a/node/in/a/linked/list/Solution.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
