@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3477baa2-ea75-4333-8f9c-7911591123af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/maximum/depth/of/binary/tree/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/maximum/depth/of/binary/tree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/maximum/validate/binary/search/tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/maximum/validate/binary/search/tree/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +114,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
+  <component name="RunManager" selected="Application.Solution (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -166,13 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.implement.strstr.Solution" />
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.maximum.validate.binary.search.tree.Solution" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.implement.strstr.*" />
+          <option name="PATTERN" value="com.cloud.leetcode.maximum.validate.binary.search.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
-        <item itemvalue="Application.Solution (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,10 +315,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600583758350" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1600594470761">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600595223911">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600594470761" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600595223911" />
     <state x="684" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600583917070">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
