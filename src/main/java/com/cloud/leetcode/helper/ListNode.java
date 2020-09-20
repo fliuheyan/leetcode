@@ -1,5 +1,6 @@
 package com.cloud.leetcode.helper;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,6 +18,16 @@ public class ListNode {
     ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
+    }
+
+    public static List<ListNode> headToList(ListNode listNode) {
+        List<ListNode> listNodes = new ArrayList<>();
+        ListNode curr = listNode;
+        while (curr != null) {
+            listNodes.add(listNode);
+            curr = curr.next;
+        }
+        return listNodes;
     }
 
     public static ListNode constructNodes(List<Integer> list) {

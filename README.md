@@ -7,6 +7,11 @@
 1. Best Time to Buy and Sell Stock II
 2. Valid Sudoku
 
+* linked list
+1. Palindrome linked list
+2. Linked List Cycle
+
+
 ### 刷题顺序
 TOP100
 
