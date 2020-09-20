@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3477baa2-ea75-4333-8f9c-7911591123af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/linked/list/cycle/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/linked/list/cycle/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/palindrome/linked/list/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/palindrome/linked/list/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/maximum/depth/of/binary/tree/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/maximum/depth/of/binary/tree/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iws" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cloud/leetcode/helper/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +115,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -154,13 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.valid.palindrome.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.leetcode.maximum.depth.of.binary.tree.Solution" />
       <module name="leetcode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cloud.leetcode.valid.palindrome.*" />
+          <option name="PATTERN" value="com.cloud.leetcode.maximum.depth.of.binary.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -283,22 +280,26 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="281" key="GridCell.Tab.0.bottom" timestamp="1600584008491">
+    <state x="709" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1600594123907">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600584008491" />
-    <state width="1750" height="281" key="GridCell.Tab.0.center" timestamp="1600584008491">
+    <state x="709" y="239" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1017@0.23.1792.1017" timestamp="1600594123907" />
+    <state width="1750" height="281" key="GridCell.Tab.0.bottom" timestamp="1600594480520">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600584008491" />
-    <state width="1750" height="281" key="GridCell.Tab.0.left" timestamp="1600584008491">
+    <state width="1750" height="281" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1600594480520" />
+    <state width="1750" height="281" key="GridCell.Tab.0.center" timestamp="1600594480519">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600584008491" />
-    <state width="1750" height="281" key="GridCell.Tab.0.right" timestamp="1600584008491">
+    <state width="1750" height="281" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1600594480519" />
+    <state width="1750" height="281" key="GridCell.Tab.0.left" timestamp="1600594480519">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="1750" height="281" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600584008491" />
+    <state width="1750" height="281" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1600594480519" />
+    <state width="1750" height="281" key="GridCell.Tab.0.right" timestamp="1600594480519">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state width="1750" height="281" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600594480519" />
     <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1600583758351">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -315,10 +316,10 @@
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
     <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1600583758350" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1600583996206">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1600594470761">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600583996206" />
+    <state width="500" height="445" key="SwitcherDM/0.23.1792.1017@0.23.1792.1017" timestamp="1600594470761" />
     <state x="684" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600583917070">
       <screen x="0" y="23" width="1792" height="1017" />
     </state>
@@ -340,11 +341,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/cloud/leetcode/delete/a/node/in/a/linked/list/Solution.java</url>
           <line>13</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cloud/leetcode/linked/list/cycle/Solution.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
