@@ -58,11 +58,11 @@ public class TreeNode {
         while (!stack.isEmpty()) {
             curr = stack.pop();
             System.out.println(curr.val);
-            if (curr.left != null) {
-                stack.push(curr.left);
-            }
             if (curr.right != null) {
                 stack.push(curr.right);
+            }
+            if (curr.left != null) {
+                stack.push(curr.left);
             }
         }
     }
