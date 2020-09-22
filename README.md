@@ -14,6 +14,13 @@
 * trees
 1. Convert Sorted Array to Binary Search Tree
 
+* string and search
+1.  First Bad Version
+
+* Dynamic Programing *** 
+1. Climbing Stairs
+
+
 ### API
 System.arrayCopy
 
