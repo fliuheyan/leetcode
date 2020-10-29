@@ -1,5 +1,8 @@
 package com.cloud.leetcode.addtwo.numbers;
 
+import java.util.List;
+import java.util.function.Predicate;
+
 public class Solution {
 
     public class ListNode {
@@ -64,13 +67,19 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        ListNode node1 = solution.genListNodeChain("342");
-        ListNode node2 = solution.genListNodeChain("465");
-
-        ListNode listNode = solution.addTwoNumbers(node1, node2);
-        solution.carryNode(listNode);
-        solution.displayNode(listNode);
+        List.of(1,2,3).stream().filter(new Predicate<Integer>() {
+            @Override
+            public boolean test(Integer integer) {
+                return false;
+            }
+        });
+//        Solution solution = new Solution();
+//        ListNode node1 = solution.genListNodeChain("342");
+//        ListNode node2 = solution.genListNodeChain("465");
+//
+//        ListNode listNode = solution.addTwoNumbers(node1, node2);
+//        solution.carryNode(listNode);
+//        solution.displayNode(listNode);
     }
 
     public void carryNode(ListNode listNode) {
