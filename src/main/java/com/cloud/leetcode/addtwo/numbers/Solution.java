@@ -22,7 +22,7 @@ public class Solution {
     //2->4->3
     //5->6->4
     public ListNode genListNodeChain(String strNum) {
-        char[] chars = (new StringBuilder(strNum)).reverse().toString().toCharArray();
+        char[] chars = strNum.toCharArray();
         ListNode[] listNodes = new ListNode[chars.length];
         for (int i = 0; i < chars.length; i++) {
             listNodes[i] = new ListNode(Integer.parseInt(String.valueOf(chars[i])));
@@ -48,6 +48,7 @@ public class Solution {
         return i;
     }
 
+    //potential bug, the header need to carry. eg: 200 + 800 -> 1000
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode temp1 = l1;
         ListNode temp2 = l2;
@@ -66,25 +67,59 @@ public class Solution {
         return chainListNodes(listNodes);
     }
 
+    //注意给出的数字是通过链表逆序存储的
+    //342 + 465 = 807
+    //789 + 32  = 0101
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        ListNode currentPrev = new ListNode(0); //当前节点的prev
+        ListNode headPrev = currentPrev;
+        int carry = 0;
+        while (l1 != null || l2 != null) {
+            int temp1 = (l1 == null ? 0 : l1.val);
+            int temp2 = (l2 == null) ? 0 : l2.val;
+            int sum = temp1 + temp2 + carry;
+            carry = sum / 10;
+            sum = sum % 10;
+            currentPrev.next = new ListNode(sum);
+            currentPrev = currentPrev.next;
+            if (l1 != null)
+                l1 = l1.next;
+            if (l2 != null)
+                l2 = l2.next;
+        }
+        //再处理一遍进位
+        if (carry != 0) {
+            currentPrev.next = new ListNode(carry);
+        }
+        return headPrev.next;
+    }
+
     public static void main(String[] args) {
-        List.of(1,2,3).stream().filter(new Predicate<Integer>() {
-            @Override
-            public boolean test(Integer integer) {
-                return false;
-            }
-        });
-//        Solution solution = new Solution();
+        Solution solution = new Solution();
 //        ListNode node1 = solution.genListNodeChain("342");
 //        ListNode node2 = solution.genListNodeChain("465");
 //
 //        ListNode listNode = solution.addTwoNumbers(node1, node2);
 //        solution.carryNode(listNode);
 //        solution.displayNode(listNode);
+
+//        ListNode listNode3 = solution.genListNodeChain("200");
+//        ListNode listNode4 = solution.genListNodeChain("800");
+//        ListNode listNode1 = solution.addTwoNumbers(listNode3, listNode4);
+//        solution.carryNode(listNode1);
+//        solution.displayNode(listNode1);
+
+        ListNode node1 = solution.genListNodeChain("789");
+        ListNode node2 = solution.genListNodeChain("32");
+        ListNode result = solution.addTwoNumbers2(node1, node2);
+        solution.displayNode(result);
+//        solution.displayNode(node2);
+//        solution.displayNode(node2);
     }
 
     public void carryNode(ListNode listNode) {
         ListNode temp = listNode;
-        while (temp != null) {
+        while (temp != null && temp.next != null) {
             if (temp.val >= 10) {
                 temp.next.val += 1;
                 temp.val = temp.val % 10;
