@@ -20,7 +20,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public static List<ListNode> headToList(ListNode listNode) {
+    public static List<ListNode> linkedListToList(ListNode listNode) {
         List<ListNode> listNodes = new ArrayList<>();
         ListNode curr = listNode;
         while (curr != null) {
@@ -30,7 +30,7 @@ public class ListNode {
         return listNodes;
     }
 
-    public static ListNode constructNodes(List<Integer> list) {
+    public static ListNode listToLinkedList(List<Integer> list) {
         List<ListNode> nodes = list.stream().map(ListNode::new).collect(Collectors.toList());
         for (int i = 0; i < nodes.size(); i++) {
             if (i != nodes.size() - 1) {

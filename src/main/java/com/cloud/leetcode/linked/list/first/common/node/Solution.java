@@ -18,17 +18,17 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        ListNode listNodeA = ListNode.constructNodes(List.of(4, 1));
-        ListNode listNodeB = ListNode.constructNodes(List.of(5, 6, 1));
-        ListNode listNodeCommon = ListNode.constructNodes(List.of(8, 4, 5));
+        ListNode listNodeA = ListNode.listToLinkedList(List.of(4, 1));
+        ListNode listNodeB = ListNode.listToLinkedList(List.of(5, 6, 1));
+        ListNode listNodeCommon = ListNode.listToLinkedList(List.of(8, 4, 5));
         listNodeA.next = listNodeCommon;
         listNodeB.next = listNodeCommon;
         ListNode intersectionNode = solution.getIntersectionNode(listNodeA, listNodeB);
         Preconditions.checkArgument(intersectionNode.val == 8);
 
 
-        ListNode listNodeC = ListNode.constructNodes(List.of(4, 1));
-        ListNode listNodeD = ListNode.constructNodes(List.of(5, 6, 1));
+        ListNode listNodeC = ListNode.listToLinkedList(List.of(4, 1));
+        ListNode listNodeD = ListNode.listToLinkedList(List.of(5, 6, 1));
         Preconditions.checkArgument(solution.getIntersectionNode(listNodeC, listNodeD) == null);
     }
 }

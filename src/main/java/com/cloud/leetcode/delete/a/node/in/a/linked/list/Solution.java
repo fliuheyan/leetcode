@@ -29,19 +29,19 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        ListNode head1 = ListNode.constructNodes(List.of(4, 5, 1, 9));
+        ListNode head1 = ListNode.listToLinkedList(List.of(4, 5, 1, 9));
         DisplayHelper.displayNode(solution.deleteNode(head1, 5));
 
-        ListNode head2 = ListNode.constructNodes(List.of(4, 5, 1, 9));
+        ListNode head2 = ListNode.listToLinkedList(List.of(4, 5, 1, 9));
         DisplayHelper.displayNode(solution.deleteNode(head2, 1));
 
-        ListNode head3 = ListNode.constructNodes(List.of(1, 2, 3, 4));
+        ListNode head3 = ListNode.listToLinkedList(List.of(1, 2, 3, 4));
         DisplayHelper.displayNode(solution.deleteNode(head3, 3));
 
-        ListNode head4 = ListNode.constructNodes(List.of(0, 1));
+        ListNode head4 = ListNode.listToLinkedList(List.of(0, 1));
         DisplayHelper.displayNode(solution.deleteNode(head4, 0));
 
-        ListNode head5 = ListNode.constructNodes(List.of(-3, 5, -99));
+        ListNode head5 = ListNode.listToLinkedList(List.of(-3, 5, -99));
         DisplayHelper.displayNode(solution.deleteNode(head5, -3));
     }
 }

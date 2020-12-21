@@ -24,17 +24,17 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        ListNode head = ListNode.constructNodes(List.of(3, 2, 0, -4));
-        List<ListNode> listNodes = ListNode.headToList(head);
+        ListNode head = ListNode.listToLinkedList(List.of(3, 2, 0, -4));
+        List<ListNode> listNodes = ListNode.linkedListToList(head);
         listNodes.get(listNodes.size() - 1).next = listNodes.get(1);
         Preconditions.checkArgument(solution.hasCycle(head));
 
-        ListNode head1 = ListNode.constructNodes(List.of(1,2));
-        List<ListNode> listNodes1 = ListNode.headToList(head1);
+        ListNode head1 = ListNode.listToLinkedList(List.of(1,2));
+        List<ListNode> listNodes1 = ListNode.linkedListToList(head1);
         listNodes1.get(listNodes1.size() - 1).next = listNodes1.get(0);
         Preconditions.checkArgument(solution.hasCycle(head1));
 
-        ListNode head2 = ListNode.constructNodes(List.of(1));
+        ListNode head2 = ListNode.listToLinkedList(List.of(1));
         Preconditions.checkArgument(!solution.hasCycle(head2));
     }
 }
