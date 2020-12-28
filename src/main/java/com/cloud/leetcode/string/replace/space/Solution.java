@@ -1,4 +1,4 @@
-package string.replace.space;
+package com.cloud.leetcode.string.replace.space;
 
 import com.google.common.base.Preconditions;
 
