@@ -26,6 +26,28 @@ public class Solution {
         return head;
     }
 
+    public ListNode deleteNode2(ListNode head, int val) {
+        ListNode current = head;
+        ListNode pre = null;
+        while (current != null) {
+            if (current.val == val) {
+                if (pre == null) {
+                    pre = current;
+                    current = current.next;
+                    pre.next = null;
+                    return current;
+                } else {
+                    pre.next = current.next;
+                    current.next = null;
+                    return head;
+                }
+            }
+            pre = current;
+            current = current.next;
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
 

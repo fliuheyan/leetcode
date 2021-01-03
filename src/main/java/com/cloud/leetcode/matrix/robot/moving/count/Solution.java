@@ -38,7 +38,7 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        
+
         int result1 = solution.movingCount(2, 3, 1);
         Preconditions.checkArgument(result1 == 3);
 
